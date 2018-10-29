@@ -41,12 +41,13 @@ def matrixRank(a):
 			if(f==100345):
 				rank-=1
 				r=0
+				print("a)
 				while r<len(a):
 					a[r][i]=a[r][rank]
 					r+=1
 			i-=1		
 		i+=1
-		print(i)
+		print(i+2)
 	return rank
 
 
